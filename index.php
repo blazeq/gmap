@@ -22,7 +22,7 @@
 		</div>
 
 		<div id="select_time" style="width:190px; height:50px;font-size:12px;">
-		<a href="#" onclick="change_time(-1);">8前一时次</a> <a href="#" onclick="change_time(0);">最新时次</a> 
+		<a href="#" onclick="change_time(-1);">前一时次</a> <a href="#" onclick="change_time(0);">最新时次</a> 
 		<?
 			if($datetimeinner == date('YmdH'))
 			{
